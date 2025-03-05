@@ -1,0 +1,21 @@
+[2.405s] Invoking command in '/home/ros2/hexapod_ws/src/patrol_action_client': LD_LIBRARY_PATH=/home/ros2/hexapod_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/hexapod_ws/build/patrol_action_client/prefix_override:/home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/patrol_action_server/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/patrol_action_client build --build-base /home/ros2/hexapod_ws/build/patrol_action_client/build install --record /home/ros2/hexapod_ws/build/patrol_action_client/install.log --install-scripts $base/lib/patrol_action_client --single-version-externally-managed
+[2.809s] running egg_info
+[2.811s] writing ../../build/patrol_action_client/patrol_action_client.egg-info/PKG-INFO
+[2.811s] writing dependency_links to ../../build/patrol_action_client/patrol_action_client.egg-info/dependency_links.txt
+[2.812s] writing entry points to ../../build/patrol_action_client/patrol_action_client.egg-info/entry_points.txt
+[2.812s] writing requirements to ../../build/patrol_action_client/patrol_action_client.egg-info/requires.txt
+[2.812s] writing top-level names to ../../build/patrol_action_client/patrol_action_client.egg-info/top_level.txt
+[2.883s] reading manifest file '../../build/patrol_action_client/patrol_action_client.egg-info/SOURCES.txt'
+[2.885s] writing manifest file '../../build/patrol_action_client/patrol_action_client.egg-info/SOURCES.txt'
+[2.885s] running build
+[2.885s] running build_py
+[2.887s] running install
+[2.888s] running install_lib
+[2.892s] running install_data
+[2.893s] running install_egg_info
+[2.897s] removing '/home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client-0.0.0-py3.8.egg-info' (and everything under it)
+[2.898s] Copying ../../build/patrol_action_client/patrol_action_client.egg-info to /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client-0.0.0-py3.8.egg-info
+[2.899s] running install_scripts
+[2.938s] Installing patrol_action_client_exe script to /home/ros2/hexapod_ws/install/patrol_action_client/lib/patrol_action_client
+[2.939s] writing list of installed files to '/home/ros2/hexapod_ws/build/patrol_action_client/install.log'
+[3.366s] Invoked command in '/home/ros2/hexapod_ws/src/patrol_action_client' returned '0': LD_LIBRARY_PATH=/home/ros2/hexapod_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/hexapod_ws/build/patrol_action_client/prefix_override:/home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/patrol_action_server/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/patrol_action_client build --build-base /home/ros2/hexapod_ws/build/patrol_action_client/build install --record /home/ros2/hexapod_ws/build/patrol_action_client/install.log --install-scripts $base/lib/patrol_action_client --single-version-externally-managed

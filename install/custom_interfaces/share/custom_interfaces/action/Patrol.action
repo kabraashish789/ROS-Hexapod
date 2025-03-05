@@ -1,0 +1,18 @@
+#Goal
+float64 revolut1
+float64 revolut2
+float64 revolut3
+float64 revolut4
+float64 revolut5
+float64 revolut6
+float64 revolut7
+float64 revolut8
+float64 revolut9
+float64 leg_number
+---
+#Result
+bool success
+
+---
+#Feedback
+float32 time_left

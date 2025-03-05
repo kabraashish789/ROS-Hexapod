@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interfaces/action/Patrol.action
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Patrol_Goal {
+      double revolut1;
+
+      double revolut2;
+
+      double revolut3;
+
+      double revolut4;
+
+      double revolut5;
+
+      double revolut6;
+
+      double revolut7;
+
+      double revolut8;
+
+      double revolut9;
+
+      double leg_number;
+    };
+    struct Patrol_Result {
+      @verbatim (language="comment", text=
+        "Result")
+      boolean success;
+    };
+    struct Patrol_Feedback {
+      @verbatim (language="comment", text=
+        "Feedback")
+      float time_left;
+    };
+  };
+};

@@ -1,0 +1,135 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000  #Hz
+    use_sim_time: true
+
+    my_position_controller1:
+     type: effort_controllers/JointGroupEffortController
+    
+   
+   
+    my_position_controller2:
+     type: effort_controllers/JointGroupEffortController
+    
+   
+   
+    my_position_controller3:
+     type: effort_controllers/JointGroupEffortController
+    
+   
+   
+    my_position_controller4:
+     type: effort_controllers/JointGroupEffortController
+    
+   
+   
+    my_position_controller5:
+     type: effort_controllers/JointGroupEffortController
+    
+   
+   
+    my_position_controller6:
+     type: effort_controllers/JointGroupEffortController
+    
+   
+   
+  
+    my_joint_state_broadcaster: 
+     type: joint_state_broadcaster/JointStateBroadcaster
+
+my_position_controller1:
+  ros__parameters:
+      joints:
+       - Revolute_1 
+       - Revolute_7 
+       - Revolute_13 
+      interface_name: effort
+      command_interfaces:
+       -position
+      
+     
+      state_interfaces:
+       - effort     
+     
+      
+
+my_position_controller2:
+  ros__parameters:
+      joints:
+       - Revolute_2 
+       - Revolute_8
+       - Revolute_14 
+      interface_name: effort
+      command_interfaces:
+       -position
+      
+
+     
+      state_interfaces:
+       - effort     
+     
+      
+
+my_position_controller3:
+  ros__parameters:
+      joints:
+       - Revolute_3 
+       - Revolute_9 
+       - Revolute_15  
+      interface_name: effort
+      command_interfaces:
+       -position
+     
+     
+      state_interfaces:
+       - effort
+     
+           
+
+my_position_controller4:
+  ros__parameters:
+      joints:
+       - Revolute_4 
+       - Revolute_10 
+       - Revolute_16  
+      interface_name: effort
+      command_interfaces:
+       -position
+      
+     
+      state_interfaces:
+       - effort
+     
+      
+
+my_position_controller5:
+  ros__parameters:
+      joints:
+       - Revolute_5 
+       - Revolute_11 
+       - Revolute_17  
+      interface_name: effort
+      command_interfaces:
+       -position
+      
+     
+      state_interfaces:
+       - effort
+     
+             
+
+my_position_controller6:
+  ros__parameters:
+      joints:
+       - Revolute_6 
+       - Revolute_12 
+       - Revolute_18  
+      interface_name: effort
+      command_interfaces:
+       -position
+      
+     
+      state_interfaces:
+       - effort
+     
+        

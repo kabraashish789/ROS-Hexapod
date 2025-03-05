@@ -1,0 +1,160 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000  #Hz
+    use_sim_time: true
+
+    my_position_controller1:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller2:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller3:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller4:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller5:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller6:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller7:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller8:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller9:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller10:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller11:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller12:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller13:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller14:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller15:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller16:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller17:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+    my_position_controller18:
+     type: position_controllers/JointGroupPositionController
+     pid : {p: 35.0, i: 25.0, d: 6 }
+
+    my_joint_state_broadcaster: 
+     type: joint_state_broadcaster/JointStateBroadcaster
+
+my_position_controller1:
+  ros__parameters:
+      joints:
+       - Revolute_1 
+   
+
+my_position_controller2:
+  ros__parameters:
+      joints:
+       - Revolute_2     
+     
+
+my_position_controller3:
+  ros__parameters:
+      joints:
+       - Revolute_3 
+
+my_position_controller4:
+  ros__parameters:
+      joints:
+       - Revolute_4 
+
+
+my_position_controller5:
+  ros__parameters:
+      joints:
+       - Revolute_5 
+
+my_position_controller6:
+  ros__parameters:
+      joints:
+       - Revolute_6 
+
+my_position_controller7:
+  ros__parameters:
+      joints:
+       - Revolute_7 
+
+my_position_controller8:
+  ros__parameters:
+      joints:
+       - Revolute_8     
+     
+
+my_position_controller9:
+  ros__parameters:
+      joints:
+       - Revolute_9 
+
+my_position_controller10:
+  ros__parameters:
+      joints:
+       - Revolute_10
+
+my_position_controller11:
+  ros__parameters:
+      joints:
+       - Revolute_11 
+
+my_position_controller12:
+  ros__parameters:
+      joints:
+       - Revolute_12 
+
+
+my_position_controller13:
+  ros__parameters:
+      joints:
+       - Revolute_13 
+
+my_position_controller14:
+  ros__parameters:
+      joints:
+       - Revolute_14     
+     
+
+my_position_controller15:
+  ros__parameters:
+      joints:
+       - Revolute_15 
+
+my_position_controller16:
+  ros__parameters:
+      joints:
+       - Revolute_16
+
+my_position_controller17:
+  ros__parameters:
+      joints:
+       - Revolute_17 
+
+my_position_controller18:
+  ros__parameters:
+      joints:
+       - Revolute_18
+     
+        

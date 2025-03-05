@@ -1,0 +1,3 @@
+[console_scripts]
+patrol_action_server_exe = patrol_action_server.patrol_action_server:main
+

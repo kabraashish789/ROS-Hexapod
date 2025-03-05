@@ -1,0 +1,68 @@
+running egg_info
+creating ../../build/patrol_action_client/patrol_action_client.egg-info
+writing ../../build/patrol_action_client/patrol_action_client.egg-info/PKG-INFO
+writing dependency_links to ../../build/patrol_action_client/patrol_action_client.egg-info/dependency_links.txt
+writing entry points to ../../build/patrol_action_client/patrol_action_client.egg-info/entry_points.txt
+writing requirements to ../../build/patrol_action_client/patrol_action_client.egg-info/requires.txt
+writing top-level names to ../../build/patrol_action_client/patrol_action_client.egg-info/top_level.txt
+writing manifest file '../../build/patrol_action_client/patrol_action_client.egg-info/SOURCES.txt'
+reading manifest file '../../build/patrol_action_client/patrol_action_client.egg-info/SOURCES.txt'
+writing manifest file '../../build/patrol_action_client/patrol_action_client.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros2/hexapod_ws/build/patrol_action_client/build
+creating /home/ros2/hexapod_ws/build/patrol_action_client/build/lib
+creating /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client
+copying patrol_action_client/__init__.py -> /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client
+copying patrol_action_client/patrol_action_client copy_with_stance.py -> /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client
+copying patrol_action_client/patrol_action_client copy.py -> /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client
+copying patrol_action_client/patrol_action_client copy 3.py -> /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client
+copying patrol_action_client/patrol_action_client_backup.py -> /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client
+copying patrol_action_client/patrol_action_client_without_cartes_leg_posi.py -> /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client
+copying patrol_action_client/patrol_action_client_EXcellentBackup.py -> /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client
+copying patrol_action_client/patrol_action_client_best_backup.py -> /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client
+copying patrol_action_client/patrol_action_client copy 2.py -> /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client
+copying patrol_action_client/patrol_action_client.py -> /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client
+copying patrol_action_client/patrol_action_client_One_Leg_Test.py -> /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client
+copying patrol_action_client/patrol_action_clientOhneWorld.py -> /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client
+copying patrol_action_client/patrol_action_clientFinalBackup_InCaseSomethWrong.py -> /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client
+running install
+running install_lib
+creating /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client
+copying /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client/__init__.py -> /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client
+copying /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client/patrol_action_client copy_with_stance.py -> /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client
+copying /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client/patrol_action_client copy.py -> /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client
+copying /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client/patrol_action_client copy 3.py -> /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client
+copying /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client/patrol_action_client_backup.py -> /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client
+copying /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client/patrol_action_client_without_cartes_leg_posi.py -> /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client
+copying /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client/patrol_action_client_EXcellentBackup.py -> /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client
+copying /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client/patrol_action_client_best_backup.py -> /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client
+copying /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client/patrol_action_client copy 2.py -> /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client
+copying /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client/patrol_action_client.py -> /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client
+copying /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client/patrol_action_client_One_Leg_Test.py -> /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client
+copying /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client/patrol_action_clientOhneWorld.py -> /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client
+copying /home/ros2/hexapod_ws/build/patrol_action_client/build/lib/patrol_action_client/patrol_action_clientFinalBackup_InCaseSomethWrong.py -> /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client
+byte-compiling /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client/patrol_action_client copy_with_stance.py to patrol_action_client copy_with_stance.cpython-38.pyc
+byte-compiling /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client/patrol_action_client copy.py to patrol_action_client copy.cpython-38.pyc
+byte-compiling /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client/patrol_action_client copy 3.py to patrol_action_client copy 3.cpython-38.pyc
+byte-compiling /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client/patrol_action_client_backup.py to patrol_action_client_backup.cpython-38.pyc
+byte-compiling /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client/patrol_action_client_without_cartes_leg_posi.py to patrol_action_client_without_cartes_leg_posi.cpython-38.pyc
+byte-compiling /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client/patrol_action_client_EXcellentBackup.py to patrol_action_client_EXcellentBackup.cpython-38.pyc
+byte-compiling /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client/patrol_action_client_best_backup.py to patrol_action_client_best_backup.cpython-38.pyc
+byte-compiling /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client/patrol_action_client copy 2.py to patrol_action_client copy 2.cpython-38.pyc
+byte-compiling /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client/patrol_action_client.py to patrol_action_client.cpython-38.pyc
+byte-compiling /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client/patrol_action_client_One_Leg_Test.py to patrol_action_client_One_Leg_Test.cpython-38.pyc
+byte-compiling /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client/patrol_action_clientOhneWorld.py to patrol_action_clientOhneWorld.cpython-38.pyc
+byte-compiling /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client/patrol_action_clientFinalBackup_InCaseSomethWrong.py to patrol_action_clientFinalBackup_InCaseSomethWrong.cpython-38.pyc
+running install_data
+creating /home/ros2/hexapod_ws/install/patrol_action_client/share/ament_index
+creating /home/ros2/hexapod_ws/install/patrol_action_client/share/ament_index/resource_index
+creating /home/ros2/hexapod_ws/install/patrol_action_client/share/ament_index/resource_index/packages
+copying resource/patrol_action_client -> /home/ros2/hexapod_ws/install/patrol_action_client/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros2/hexapod_ws/install/patrol_action_client/share/patrol_action_client
+running install_egg_info
+Copying ../../build/patrol_action_client/patrol_action_client.egg-info to /home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages/patrol_action_client-0.0.0-py3.8.egg-info
+running install_scripts
+Installing patrol_action_client_exe script to /home/ros2/hexapod_ws/install/patrol_action_client/lib/patrol_action_client
+writing list of installed files to '/home/ros2/hexapod_ws/build/patrol_action_client/install.log'

@@ -1,0 +1,174 @@
+[1.841s] Invoking command in '/home/ros2/hexapod_ws/src/hexapod_description': LD_LIBRARY_PATH=/home/ros2/hexapod_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/hexapod_ws/build/hexapod_description/prefix_override:/home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/patrol_action_server/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/hexapod_description build --build-base /home/ros2/hexapod_ws/build/hexapod_description/build install --record /home/ros2/hexapod_ws/build/hexapod_description/install.log --single-version-externally-managed
+[2.170s] running egg_info
+[2.171s] creating ../../build/hexapod_description/hexapod_description.egg-info
+[2.171s] writing ../../build/hexapod_description/hexapod_description.egg-info/PKG-INFO
+[2.172s] writing dependency_links to ../../build/hexapod_description/hexapod_description.egg-info/dependency_links.txt
+[2.172s] writing entry points to ../../build/hexapod_description/hexapod_description.egg-info/entry_points.txt
+[2.172s] writing requirements to ../../build/hexapod_description/hexapod_description.egg-info/requires.txt
+[2.173s] writing top-level names to ../../build/hexapod_description/hexapod_description.egg-info/top_level.txt
+[2.175s] writing manifest file '../../build/hexapod_description/hexapod_description.egg-info/SOURCES.txt'
+[2.239s] reading manifest file '../../build/hexapod_description/hexapod_description.egg-info/SOURCES.txt'
+[2.242s] writing manifest file '../../build/hexapod_description/hexapod_description.egg-info/SOURCES.txt'
+[2.242s] running build
+[2.242s] running build_py
+[2.242s] creating /home/ros2/hexapod_ws/build/hexapod_description/build
+[2.243s] creating /home/ros2/hexapod_ws/build/hexapod_description/build/lib
+[2.243s] creating /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.243s] copying hexapod_description/__init__.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.244s] copying hexapod_description/controller1Full.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.244s] copying hexapod_description/controller1____oneLegNormal.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.244s] copying hexapod_description/patrol_action_server.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.245s] copying hexapod_description/controllerSpot.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.245s] copying hexapod_description/controller1___trigomy.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.245s] copying hexapod_description/controllerOLd.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.245s] copying hexapod_description/controller1copy.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.246s] copying hexapod_description/controllerDontKnow.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.246s] copying hexapod_description/controllerwrong.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.247s] copying hexapod_description/controller1____GutFull.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.247s] copying hexapod_description/controller1OneTest.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.247s] copying hexapod_description/controllerBack.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.247s] copying hexapod_description/controller1.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.247s] copying hexapod_description/controller2.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.248s] copying hexapod_description/controllerTrigo.py -> /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description
+[2.248s] running install
+[2.248s] running install_lib
+[2.249s] creating /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.249s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/__init__.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.251s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/controller1Full.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.251s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/controller1____oneLegNormal.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.251s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/patrol_action_server.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.251s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/controllerSpot.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.252s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/controller1___trigomy.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.252s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/controllerOLd.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.252s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/controller1copy.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.252s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/controllerDontKnow.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.253s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/controllerwrong.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.253s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/controller1____GutFull.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.253s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/controller1OneTest.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.253s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/controllerBack.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.253s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/controller1.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.254s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/controller2.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.254s] copying /home/ros2/hexapod_ws/build/hexapod_description/build/lib/hexapod_description/controllerTrigo.py -> /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description
+[2.254s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/__init__.py to __init__.cpython-38.pyc
+[2.255s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/controller1Full.py to controller1Full.cpython-38.pyc
+[2.267s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/controller1____oneLegNormal.py to controller1____oneLegNormal.cpython-38.pyc
+[2.274s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/patrol_action_server.py to patrol_action_server.cpython-38.pyc
+[2.275s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/controllerSpot.py to controllerSpot.cpython-38.pyc
+[2.283s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/controller1___trigomy.py to controller1___trigomy.cpython-38.pyc
+[2.290s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/controllerOLd.py to controllerOLd.cpython-38.pyc
+[2.299s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/controller1copy.py to controller1copy.cpython-38.pyc
+[2.301s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/controllerDontKnow.py to controllerDontKnow.cpython-38.pyc
+[2.307s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/controllerwrong.py to controllerwrong.cpython-38.pyc
+[2.320s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/controller1____GutFull.py to controller1____GutFull.cpython-38.pyc
+[2.327s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/controller1OneTest.py to controller1OneTest.cpython-38.pyc
+[2.334s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/controllerBack.py to controllerBack.cpython-38.pyc
+[2.343s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/controller1.py to controller1.cpython-38.pyc
+[2.343s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/controller2.py to controller2.cpython-38.pyc
+[2.353s] byte-compiling /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description/controllerTrigo.py to controllerTrigo.cpython-38.pyc
+[2.358s] running install_data
+[2.360s] creating /home/ros2/hexapod_ws/install/hexapod_description/share/ament_index
+[2.361s] creating /home/ros2/hexapod_ws/install/hexapod_description/share/ament_index/resource_index
+[2.362s] creating /home/ros2/hexapod_ws/install/hexapod_description/share/ament_index/resource_index/packages
+[2.362s] copying resource/hexapod_description -> /home/ros2/hexapod_ws/install/hexapod_description/share/ament_index/resource_index/packages
+[2.364s] copying package.xml -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description
+[2.365s] creating /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/launch
+[2.365s] copying launch/controlBack.launch.py -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/launch
+[2.365s] copying launch/position3.launch.py -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/launch
+[2.365s] copying launch/control2.launch.py -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/launch
+[2.365s] copying launch/position2.launch.py -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/launch
+[2.366s] copying launch/position1.launch.py -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/launch
+[2.370s] copying launch/control1.launch.py -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/launch
+[2.371s] copying launch/hexapod.launch.py -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/launch
+[2.371s] copying launch/controlSpot.launch.py -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/launch
+[2.371s] copying launch/display.launch.py -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/launch
+[2.372s] copying launch/gazebo.launch.py -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/launch
+[2.376s] copying launch/load_world_into_gazebo.launch.py -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/launch
+[2.377s] copying launch/controlTrigo.launch.py -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/launch
+[2.379s] copying launch/start_world.launch.py -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/launch
+[2.380s] creating /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/urdf
+[2.383s] copying urdf/hexapod_Backup_Latest.xacro -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/urdf
+[2.384s] copying urdf/hexapod.trans -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/urdf
+[2.384s] copying urdf/hexapod_pos1.xacro -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/urdf
+[2.384s] copying urdf/hexapod.xacro -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/urdf
+[2.385s] copying urdf/hexapodBackup.xacro -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/urdf
+[2.385s] copying urdf/hexapod.urdf -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/urdf
+[2.385s] copying urdf/hexapodOneLeg.xacro -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/urdf
+[2.385s] copying urdf/hexapod.gazebo -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/urdf
+[2.385s] copying urdf/materials.xacro -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/urdf
+[2.386s] creating /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.386s] copying meshes/leg_rubber_tip.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.386s] copying meshes/leg1_link1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.386s] copying meshes/leg2_link3_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.386s] copying meshes/leg5_link1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.386s] copying meshes/leg2_link1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.386s] copying meshes/component12_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.386s] copying meshes/component4_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.387s] copying meshes/component15_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.387s] copying meshes/base_link.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.387s] copying meshes/component2_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.387s] copying meshes/component11_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.387s] copying meshes/leg4_link1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.387s] copying meshes/component3_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.387s] copying meshes/component14_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.387s] copying meshes/leg2_link2_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.387s] copying meshes/component6_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.388s] copying meshes/component3_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.388s] copying meshes/component10_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.388s] copying meshes/leg4_link3_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.388s] copying meshes/component1_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.388s] copying meshes/component6_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.389s] copying meshes/leg6_link3_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.389s] copying meshes/component1_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.389s] copying meshes/leg1_link3_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.389s] copying meshes/component17_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.389s] copying meshes/component16_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.389s] copying meshes/component5_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.389s] copying meshes/component9_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.389s] copying meshes/component16_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.390s] copying meshes/leg3_link3_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.390s] copying meshes/component5_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.391s] copying meshes/component7_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.391s] copying meshes/component13_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.391s] copying meshes/leg6_link2_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.391s] copying meshes/leg1_link2_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.391s] copying meshes/leg4_link2_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.391s] copying meshes/leg3_link2_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.391s] copying meshes/component4_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.391s] copying meshes/component18_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.391s] copying meshes/component17_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.392s] copying meshes/leg3_link1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.392s] copying meshes/leg5_link3_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.392s] copying meshes/component8_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.392s] copying meshes/component15_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.392s] copying meshes/component10_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.392s] copying meshes/component13_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.392s] copying meshes/component18_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.393s] copying meshes/leg6_link1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.393s] copying meshes/component8_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.393s] copying meshes/component2_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.393s] copying meshes/component12_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.393s] copying meshes/component11_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.393s] copying meshes/component7_1.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.393s] copying meshes/base_link_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.393s] copying meshes/component9_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.393s] copying meshes/component14_1_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.394s] copying meshes/leg5_link2_collision.stl -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/meshes
+[2.394s] creating /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/config
+[2.394s] copying config/controller_configuration.yaml -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/config
+[2.394s] copying config/controller_configurationPo.yaml -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/config
+[2.394s] copying config/controller_configurationPo copy.yaml -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/config
+[2.394s] copying config/controller_configurationtraj.yaml -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/config
+[2.395s] copying config/controller_configurationOneLeg.yaml -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/config
+[2.395s] copying config/display.rviz -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/config
+[2.395s] copying config/controller_configurationPo copy 2.yaml -> /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/config
+[2.395s] creating /home/ros2/hexapod_ws/install/hexapod_description/share/hexapod_description/worlds
+[2.395s] running install_egg_info
+[2.396s] Copying ../../build/hexapod_description/hexapod_description.egg-info to /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description-0.0.0-py3.8.egg-info
+[2.396s] running install_scripts
+[2.420s] Installing motor_data1 script to /home/ros2/hexapod_ws/install/hexapod_description/lib/hexapod_description
+[2.421s] Installing motor_data2 script to /home/ros2/hexapod_ws/install/hexapod_description/lib/hexapod_description
+[2.421s] Installing motor_data3 script to /home/ros2/hexapod_ws/install/hexapod_description/lib/hexapod_description
+[2.422s] Installing motor_data4 script to /home/ros2/hexapod_ws/install/hexapod_description/lib/hexapod_description
+[2.422s] Installing patrol_action_server_exe script to /home/ros2/hexapod_ws/install/hexapod_description/lib/hexapod_description
+[2.422s] writing list of installed files to '/home/ros2/hexapod_ws/build/hexapod_description/install.log'
+[2.783s] Invoked command in '/home/ros2/hexapod_ws/src/hexapod_description' returned '0': LD_LIBRARY_PATH=/home/ros2/hexapod_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/hexapod_ws/build/hexapod_description/prefix_override:/home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/patrol_action_server/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/hexapod_description build --build-base /home/ros2/hexapod_ws/build/hexapod_description/build install --record /home/ros2/hexapod_ws/build/hexapod_description/install.log --single-version-externally-managed

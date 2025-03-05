@@ -1,0 +1,7 @@
+[console_scripts]
+motor_data1 = hexapod_description.controller1:main
+motor_data2 = hexapod_description.controller2:main
+motor_data3 = hexapod_description.controllerSpot:main
+motor_data4 = hexapod_description.controllerTrigo:main
+patrol_action_server_exe = hexapod_description.patrol_action_server:main
+

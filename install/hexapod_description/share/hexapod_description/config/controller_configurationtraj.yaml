@@ -1,0 +1,40 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000  #Hz
+    use_sim_time: true
+
+    my_position_controller:
+     type: joint_trajectory_controller/JointTrajectoryController
+     
+    my_joint_state_broadcaster: 
+     type: joint_state_broadcaster/JointStateBroadcaster
+
+my_position_controller:
+  ros__parameters:
+      joints:
+       - Revolute_1 
+       - Revolute_2 
+       - Revolute_3
+       - Revolute_4 
+       - Revolute_5
+       - Revolute_6 
+       - Revolute_7 
+       - Revolute_8 
+       - Revolute_9 
+       - Revolute_10 
+       - Revolute_11 
+       - Revolute_12 
+       - Revolute_13 
+       - Revolute_14 
+       - Revolute_15 
+       - Revolute_16 
+       - Revolute_17 
+       - Revolute_18  
+      interface_name: position
+      command_interfaces:
+       - position
+     
+      state_interfaces:
+       - position
+
+     

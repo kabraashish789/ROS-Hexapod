@@ -1,0 +1,901 @@
+<?xml version="1.0" ?>
+<robot name="hexapod" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find hexapod_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find hexapod_description)/urdf/hexapod.trans" />
+<xacro:include filename="$(find hexapod_description)/urdf/hexapod.gazebo" />
+
+<link name="base_dummy" >
+</link>
+
+<link name="base_link" >
+  <inertial>
+    <origin xyz="8.266276379712114e-06 -0.0009886716873946395 0.04874083793163842" rpy="0 0 0"/>
+    <mass value="3.6572301866357626"/>
+    <inertia ixx="0.017055" iyy="0.016176" izz="0.029899" ixy="1e-06" iyz="0.00022" ixz="-2e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/base_link_collision.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+<joint name="world_to_base" type="fixed">
+     <parent link="base_dummy"/>
+     <child link="base_link"/>
+     <origin xyz="0 0 0" rpy="0 0 0"/>
+   </joint>
+
+
+<link name="component1_1">
+  <inertial>
+    <origin xyz="-0.03472181524801235 -9.849351201099998e-05 -0.026462487936544335" rpy="0 0 0"/>
+    <mass value="0.5318520909167351"/>
+    <inertia ixx="0.000223" iyy="0.000207" izz="0.000152" ixy="-0.0" iyz="1e-06" ixz="-4e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.1127 -0.0 -0.067107" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.1127 -0.0 -0.067107" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component2_1">
+  <inertial>
+    <origin xyz="-0.01727560981974527 -0.030119283922293266 -0.02646248783738539" rpy="0 0 0"/>
+    <mass value="0.531852083658763"/>
+    <inertia ixx="0.000211" iyy="0.000219" izz="0.000152" ixy="7e-06" iyz="-3e-06" ixz="-3e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.05635 0.097601 -0.067107" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.05635 0.097601 -0.067107" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component3_1">
+  <inertial>
+    <origin xyz="0.017446205545726595 -0.03002079043477618 -0.026462487837401356" rpy="0 0 0"/>
+    <mass value="0.5318520836587638"/>
+    <inertia ixx="0.000211" iyy="0.000219" izz="0.000152" ixy="-7e-06" iyz="-4e-06" ixz="2e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.05635 0.097601 -0.067107" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.05635 0.097601 -0.067107" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component4_1">
+  <inertial>
+    <origin xyz="0.034721815476416396 9.849351462016009e-05 -0.02646248798455965" rpy="0 0 0"/>
+    <mass value="0.5318520768272037"/>
+    <inertia ixx="0.000223" iyy="0.000207" izz="0.000152" ixy="-0.0" iyz="-1e-06" ixz="4e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.1127 0.0 -0.067107" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.1127 0.0 -0.067107" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component5_1">
+  <inertial>
+    <origin xyz="0.017275609819784293 0.03011928392232749 -0.026462487837400878" rpy="0 0 0"/>
+    <mass value="0.5318520836587642"/>
+    <inertia ixx="0.000211" iyy="0.000219" izz="0.000152" ixy="7e-06" iyz="3e-06" ixz="3e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.05635 -0.097601 -0.067107" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.05635 -0.097601 -0.067107" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component6_1">
+  <inertial>
+    <origin xyz="-0.0174462055457658 0.030020790434810207 -0.02646248783738546" rpy="0 0 0"/>
+    <mass value="0.5318520836587627"/>
+    <inertia ixx="0.000211" iyy="0.000219" izz="0.000152" ixy="-7e-06" iyz="4e-06" ixz="-2e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.05635 -0.097601 -0.067107" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.05635 -0.097601 -0.067107" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component7_1">
+  <inertial>
+    <origin xyz="-0.02615881315881119 0.024444759074183506 0.05609775585135931" rpy="0 0 0"/>
+    <mass value="0.5018550484916557"/>
+    <inertia ixx="0.000316" iyy="0.000264" izz="0.000179" ixy="-0.0" iyz="1e-06" ixz="8.1e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.1514 0.0248 -0.053057" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component7_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.1514 0.0248 -0.053057" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component7_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component8_1">
+  <inertial>
+    <origin xyz="-0.03424875891318909 -0.010432063324280455 0.05609775585150154" rpy="0 0 0"/>
+    <mass value="0.5018550484916957"/>
+    <inertia ixx="0.000278" iyy="0.000302" izz="0.000179" ixy="2.2e-05" iyz="7.1e-05" ixz="4e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.054223 0.143516 -0.053057" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component8_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.054223 0.143516 -0.053057" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component8_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component9_1">
+  <inertial>
+    <origin xyz="-0.008089945754373135 -0.0348768223984635 0.05609775585147272" rpy="0 0 0"/>
+    <mass value="0.501855048491688"/>
+    <inertia ixx="0.000277" iyy="0.000303" izz="0.000179" ixy="-2.2e-05" iyz="7e-05" ixz="-4.1e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.097177 0.118716 -0.053057" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component9_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.097177 0.118716 -0.053057" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component9_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component10_1">
+  <inertial>
+    <origin xyz="0.026158813158811467 -0.02444475907418357 0.056097755851360225" rpy="0 0 0"/>
+    <mass value="0.5018550484916556"/>
+    <inertia ixx="0.000316" iyy="0.000264" izz="0.000179" ixy="-0.0" iyz="-1e-06" ixz="-8.1e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.1514 -0.0248 -0.053057" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component10_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.1514 -0.0248 -0.053057" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component10_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component11_1">
+  <inertial>
+    <origin xyz="0.03424875891318294 0.010432063324279178 0.05609775585147398" rpy="0 0 0"/>
+    <mass value="0.5018550484916882"/>
+    <inertia ixx="0.000278" iyy="0.000302" izz="0.000179" ixy="2.2e-05" iyz="-7.1e-05" ixz="-4e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.054223 -0.143516 -0.053057" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component11_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.054223 -0.143516 -0.053057" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component11_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component12_1">
+  <inertial>
+    <origin xyz="0.008089945754370137 0.034876822398464444 0.05609775585150082" rpy="0 0 0"/>
+    <mass value="0.5018550484916959"/>
+    <inertia ixx="0.000277" iyy="0.000303" izz="0.000179" ixy="-2.2e-05" iyz="-7e-05" ixz="4.1e-05"/>
+  </inertial>
+
+  <collision>
+    <origin xyz="0.097177 -0.118716 -0.053057" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/leg1_link3_collision.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+  <visual>
+    <origin xyz="0.097177 -0.118716 -0.053057" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component12_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="component13_1">
+  <inertial>
+    <origin xyz="-0.045563253338949616 0.02475054499405109 -0.052890505292138776" rpy="0 0 0"/>
+    <mass value="0.2025668499832522"/>
+    <inertia ixx="0.000324" iyy="0.000404" izz="0.000172" ixy="-0.0" iyz="-0.0" ixz="-0.000181"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.185801 0.02525 -0.12683" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component13_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.185801 0.02525 -0.12683" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component13_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component14_1">
+  <inertial>
+    <origin xyz="-0.04421647645034832 -0.0270852003238089 -0.05289188877569738" rpy="0 0 0"/>
+    <mass value="0.2025557872356999"/>
+    <inertia ixx="0.000384" iyy="0.000344" izz="0.000172" ixy="-3.5e-05" iyz="-0.000156" ixz="-9e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.071033 0.173533 -0.12683" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component14_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.071033 0.173533 -0.12683" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component14_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component15_1">
+  <inertial>
+    <origin xyz="0.0013477819013015396 -0.051835198568256385 -0.052892135795291104" rpy="0 0 0"/>
+    <mass value="0.20255712956095748"/>
+    <inertia ixx="0.000384" iyy="0.000344" izz="0.000172" ixy="3.5e-05" iyz="-0.000156" ixz="9e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.114768 0.148283 -0.12683" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component15_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.114768 0.148283 -0.12683" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component15_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component16_1">
+  <inertial>
+    <origin xyz="0.04556325333895034 -0.024750544994051344 -0.05289050529213761" rpy="0 0 0"/>
+    <mass value="0.20256684998325244"/>
+    <inertia ixx="0.000324" iyy="0.000404" izz="0.000172" ixy="-0.0" iyz="0.0" ixz="0.000181"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.185801 -0.02525 -0.12683" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component16_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.185801 -0.02525 -0.12683" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component16_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component17_1">
+  <inertial>
+    <origin xyz="0.0442164764503469 0.027085200323808095 -0.05289188877569599" rpy="0 0 0"/>
+    <mass value="0.2025557872357"/>
+    <inertia ixx="0.000384" iyy="0.000344" izz="0.000172" ixy="-3.5e-05" iyz="0.000156" ixz="9e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.071033 -0.173533 -0.12683" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component17_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.071033 -0.173533 -0.12683" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component17_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="component18_1">
+  <inertial>
+    <origin xyz="-0.001347781901300582 0.05183519856825636 -0.05289213579529099" rpy="0 0 0"/>
+    <mass value="0.20255712956095756"/>
+    <inertia ixx="0.000384" iyy="0.000344" izz="0.000172" ixy="3.5e-05" iyz="0.000156" ixz="-9e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.114768 -0.148283 -0.12683" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component18_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.114768 -0.148283 -0.12683" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find hexapod_description)/meshes/component18_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute_1" type="revolute">
+  <origin xyz="-0.1127 0.0 0.067107" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="component1_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_2" type="revolute">
+  <origin xyz="-0.05635 -0.097601 0.067107" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="component2_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_3" type="revolute">
+  <origin xyz="0.05635 -0.097601 0.067107" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="component3_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_4" type="revolute">
+  <origin xyz="0.1127 0.0 0.067107" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="component4_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_5" type="revolute">
+  <origin xyz="0.05635 0.097601 0.067107" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="component5_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_6" type="revolute">
+  <origin xyz="-0.05635 0.097601 0.067107" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="component6_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_7" type="revolute">
+  <origin xyz="-0.0387 -0.0248 -0.01405" rpy="0 0 0"/>
+  <parent link="component1_1"/>
+  <child link="component7_1"/>
+  <axis xyz="-0.0 -1.0 0.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_8" type="revolute">
+  <origin xyz="0.002127 -0.045915 -0.01405" rpy="0 0 0"/>
+  <parent link="component2_1"/>
+  <child link="component8_1"/>
+  <axis xyz="0.866025 -0.5 -0.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_9" type="revolute">
+  <origin xyz="0.040827 -0.021115 -0.01405" rpy="0 0 0"/>
+  <parent link="component3_1"/>
+  <child link="component9_1"/>
+  <axis xyz="0.866025 0.5 0.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_10" type="revolute">
+  <origin xyz="0.0387 0.0248 -0.01405" rpy="0 0 0"/>
+  <parent link="component4_1"/>
+  <child link="component10_1"/>
+  <axis xyz="-0.0 1.0 0.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_11" type="revolute">
+  <origin xyz="-0.002127 0.045915 -0.01405" rpy="0 0 0"/>
+  <parent link="component5_1"/>
+  <child link="component11_1"/>
+  <axis xyz="-0.866025 0.5 0.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_12" type="revolute">
+  <origin xyz="-0.040827 0.021115 -0.01405" rpy="0 0 0"/>
+  <parent link="component6_1"/>
+  <child link="component12_1"/>
+  <axis xyz="-0.866025 -0.5 -0.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_13" type="revolute">
+  <origin xyz="-0.034401 -0.00045 0.073773" rpy="0 0 0"/>
+  <parent link="component7_1"/>
+  <child link="component13_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_14" type="revolute">
+  <origin xyz="-0.01681 -0.030017 0.073773" rpy="0 0 0"/>
+  <parent link="component8_1"/>
+  <child link="component14_1"/>
+  <axis xyz="0.866025 -0.5 -0.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_15" type="revolute">
+  <origin xyz="0.017591 -0.029567 0.073773" rpy="0 0 0"/>
+  <parent link="component9_1"/>
+  <child link="component15_1"/>
+  <axis xyz="0.866025 0.5 0.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_16" type="revolute">
+  <origin xyz="0.034401 0.00045 0.073773" rpy="0 0 0"/>
+  <parent link="component10_1"/>
+  <child link="component16_1"/>
+  <axis xyz="-0.0 1.0 0.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_17" type="revolute">
+  <origin xyz="0.01681 0.030017 0.073773" rpy="0 0 0"/>
+  <parent link="component11_1"/>
+  <child link="component17_1"/>
+  <axis xyz="-0.866025 0.5 0.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="2" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+
+<joint name="Revolute_18" type="revolute">
+  <origin xyz="-0.017591 0.029567 0.073773" rpy="0 0 0"/>
+  <parent link="component12_1"/>
+  <child link="component18_1"/>
+  <axis xyz="-0.866025 -0.5 -0.0"/>
+     <dynamics damping="0.85"    friction="0.5"/>
+  <limit effort="0" velocity="2" lower="-3.14" upper="3.14"/>
+</joint>
+<ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>  
+
+    <joint name="Revolute_1">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+  
+      <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface> 
+    </joint>
+
+    <joint name="Revolute_2">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+   
+      <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+    </joint>
+     
+    <joint name="Revolute_3">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      
+      <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface> 
+    </joint>
+
+    <joint name="Revolute_4">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+   
+      <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+    </joint>
+
+     <joint name="Revolute_5">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+     
+      <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+    </joint>
+    
+    <joint name="Revolute_6">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+ 
+      <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+    </joint>
+     
+    <joint name="Revolute_7">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+
+      <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+    </joint>
+
+    <joint name="Revolute_8">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+     
+      <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+    </joint>
+
+     <joint name="Revolute_9">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface> 
+      <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+    </joint>
+
+    
+    <joint name="Revolute_10">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+
+      <state_interface name="position">
+      </state_interface>
+
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface> 
+    </joint>
+     
+    <joint name="Revolute_11">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+
+      <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+    </joint>
+
+    <joint name="Revolute_12">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+  
+      <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+    </joint>
+
+     <joint name="Revolute_13">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+
+      <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+    </joint>
+
+    <joint name="Revolute_14">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+       <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+    </joint>
+     
+    <joint name="Revolute_15">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+ 
+        <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+    </joint>
+
+    <joint name="Revolute_16">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+
+      <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+    </joint>
+
+     <joint name="Revolute_17">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+  
+       <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+    </joint>
+
+
+    <joint name="Revolute_18">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+ 
+      <state_interface name="position">
+       
+      </state_interface>
+      <state_interface name="velocity">
+       
+      </state_interface>
+      <state_interface name="effort">
+    
+      </state_interface>
+ 
+    </joint>
+
+  </ros2_control>
+
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control"> 
+    <parameters>$(find hexapod_description)/config/controller_configuration.yaml</parameters> 
+     <robot_param_node>robot_state_publisher</robot_param_node> 
+    </plugin> 
+  </gazebo>
+
+
+</robot>
+

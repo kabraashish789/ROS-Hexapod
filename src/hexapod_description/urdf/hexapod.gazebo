@@ -1,0 +1,150 @@
+<?xml version="1.0" ?>
+<robot name="hexapod" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<xacro:property name="body_color" value="Gazebo/Silver" />
+
+<!-- <gazebo>
+  <plugin name="control" filename="libgazebo_ros_control.so"/>
+</gazebo> -->
+
+  <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <robotNamespace>/hexapod</robotNamespace>
+      <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+    </plugin>
+  </gazebo>
+
+ <!--<physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <ode>
+        <solver>
+          <type>world</type>
+          <iters>150</iters>
+          <precon_iters>0</precon_iters>
+          <sor>1.400000</sor>
+          <use_dynamic_moi_rescaling>1</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>
+          <cfm>0.00001</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>2000.000000</contact_max_correcting_vel>
+          <contact_surface_layer>0.01000</contact_surface_layer>
+        </constraints>
+      </ode>
+</physics> <kd>1</kd>
+<kd>1</kd> <kd>1</kd> <minDepth>1e17</minDepth>   -->
+
+ 
+
+<gazebo reference="base_link">
+  <material>${body_color}</material>
+
+<self_collide>true</self_collide> 
+  
+</gazebo>
+
+<gazebo reference="component1_1">
+  <material>${body_color}</material>
+
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component2_1">
+  <material>${body_color}</material>
+
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component3_1">
+  <material>${body_color}</material>
+
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component4_1">
+  <material>${body_color}</material>
+
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component5_1">
+  <material>${body_color}</material>
+
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component6_1">
+  <material>${body_color}</material>
+
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component7_1">
+  <material>${body_color}</material>
+
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component8_1">
+  <material>${body_color}</material>
+
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component9_1">
+  <material>${body_color}</material>
+
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component10_1">
+  <material>${body_color}</material>
+
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component11_1">
+  <material>${body_color}</material>
+
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component12_1">
+  <material>${body_color}</material>
+
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component13_1">
+  <material>${body_color}</material>
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component14_1">
+  <material>${body_color}</material>
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component15_1">
+  <material>${body_color}</material>
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component16_1">
+  <material>${body_color}</material>
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component17_1">
+  <material>${body_color}</material>
+<self_collide>true</self_collide> 
+</gazebo>
+
+<gazebo reference="component18_1">
+  <material>${body_color}</material>
+<self_collide>true</self_collide> 
+</gazebo>
+
+</robot>

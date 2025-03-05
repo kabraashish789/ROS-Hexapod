@@ -1,0 +1,53 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000  #Hz
+
+    my_position_controller1:
+     type: forward_command_controller/ForwardCommandController
+     
+    my_position_controller2:
+     type: forward_command_controller/ForwardCommandController
+
+    my_position_controller3:
+     type: forward_command_controller/ForwardCommandController
+    my_joint_state_broadcaster: 
+     type: joint_state_broadcaster/JointStateBroadcaster
+
+my_position_controller1:
+  ros__parameters:
+      joints:
+       - Revolute_1 
+  
+      interface_name: position
+      command_interfaces:
+       - position
+     
+      state_interfaces:
+       - position
+
+my_position_controller2:
+  ros__parameters:
+      joints:
+       - Revolute_7 
+  
+      interface_name: position
+      command_interfaces:
+       - position
+     
+      state_interfaces:
+       - position
+
+my_position_controller3:
+  ros__parameters:
+      joints:
+       - Revolute_13 
+  
+      interface_name: position
+      command_interfaces:
+       - position
+     
+      state_interfaces:
+       - position
+
+
+          

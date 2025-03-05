@@ -1,0 +1,25 @@
+[2.015s] Invoking command in '/home/ros2/hexapod_ws/src/hexapod_description': LD_LIBRARY_PATH=/home/ros2/hexapod_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/hexapod_ws/build/hexapod_description/prefix_override:/home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/patrol_action_server/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/hexapod_description build --build-base /home/ros2/hexapod_ws/build/hexapod_description/build install --record /home/ros2/hexapod_ws/build/hexapod_description/install.log --single-version-externally-managed
+[2.226s] running egg_info
+[2.227s] writing ../../build/hexapod_description/hexapod_description.egg-info/PKG-INFO
+[2.227s] writing dependency_links to ../../build/hexapod_description/hexapod_description.egg-info/dependency_links.txt
+[2.227s] writing entry points to ../../build/hexapod_description/hexapod_description.egg-info/entry_points.txt
+[2.228s] writing requirements to ../../build/hexapod_description/hexapod_description.egg-info/requires.txt
+[2.228s] writing top-level names to ../../build/hexapod_description/hexapod_description.egg-info/top_level.txt
+[2.266s] reading manifest file '../../build/hexapod_description/hexapod_description.egg-info/SOURCES.txt'
+[2.267s] writing manifest file '../../build/hexapod_description/hexapod_description.egg-info/SOURCES.txt'
+[2.267s] running build
+[2.268s] running build_py
+[2.269s] running install
+[2.271s] running install_lib
+[2.273s] running install_data
+[2.276s] running install_egg_info
+[2.277s] removing '/home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description-0.0.0-py3.8.egg-info' (and everything under it)
+[2.278s] Copying ../../build/hexapod_description/hexapod_description.egg-info to /home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages/hexapod_description-0.0.0-py3.8.egg-info
+[2.278s] running install_scripts
+[2.294s] Installing motor_data1 script to /home/ros2/hexapod_ws/install/hexapod_description/lib/hexapod_description
+[2.295s] Installing motor_data2 script to /home/ros2/hexapod_ws/install/hexapod_description/lib/hexapod_description
+[2.295s] Installing motor_data3 script to /home/ros2/hexapod_ws/install/hexapod_description/lib/hexapod_description
+[2.295s] Installing motor_data4 script to /home/ros2/hexapod_ws/install/hexapod_description/lib/hexapod_description
+[2.295s] Installing patrol_action_server_exe script to /home/ros2/hexapod_ws/install/hexapod_description/lib/hexapod_description
+[2.296s] writing list of installed files to '/home/ros2/hexapod_ws/build/hexapod_description/install.log'
+[2.315s] Invoked command in '/home/ros2/hexapod_ws/src/hexapod_description' returned '0': LD_LIBRARY_PATH=/home/ros2/hexapod_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/hexapod_ws/build/hexapod_description/prefix_override:/home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/patrol_action_server/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/patrol_action_client/lib/python3.8/site-packages:/home/ros2/hexapod_ws/install/hexapod_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/hexapod_description build --build-base /home/ros2/hexapod_ws/build/hexapod_description/build install --record /home/ros2/hexapod_ws/build/hexapod_description/install.log --single-version-externally-managed
